@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D60A7111B24A055007041BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A7101B24A055007041BC /* main.m */; };
+		3D60A7141B24A055007041BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A7131B24A055007041BC /* AppDelegate.m */; };
+		3D60A7171B24A055007041BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A7161B24A055007041BC /* ViewController.m */; };
+		3D60A71A1B24A055007041BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A7181B24A055007041BC /* Main.storyboard */; };
+		3D60A71C1B24A055007041BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A71B1B24A055007041BC /* Images.xcassets */; };
+		3D60A71F1B24A055007041BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A71D1B24A055007041BC /* LaunchScreen.xib */; };
+		3D60A72B1B24A055007041BC /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A72A1B24A055007041BC /* __Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D60A7251B24A055007041BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D60A7031B24A054007041BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D60A70A1B24A054007041BC;
+			remoteInfo = "微聊";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D60A70B1B24A054007041BC /* 微聊.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微聊.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D60A70F1B24A054007041BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D60A7101B24A055007041BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D60A7121B24A055007041BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D60A7131B24A055007041BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D60A7151B24A055007041BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D60A7161B24A055007041BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D60A7191B24A055007041BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D60A71B1B24A055007041BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D60A71E1B24A055007041BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D60A7241B24A055007041BC /* 微聊Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微聊Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D60A7291B24A055007041BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D60A72A1B24A055007041BC /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D60A7081B24A054007041BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D60A7211B24A055007041BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D60A7021B24A054007041BC = {
+			isa = PBXGroup;
+			children = (
+				3D60A70D1B24A054007041BC /* 微聊 */,
+				3D60A7271B24A055007041BC /* 微聊Tests */,
+				3D60A70C1B24A054007041BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D60A70C1B24A054007041BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A70B1B24A054007041BC /* 微聊.app */,
+				3D60A7241B24A055007041BC /* 微聊Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D60A70D1B24A054007041BC /* 微聊 */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A7121B24A055007041BC /* AppDelegate.h */,
+				3D60A7131B24A055007041BC /* AppDelegate.m */,
+				3D60A7151B24A055007041BC /* ViewController.h */,
+				3D60A7161B24A055007041BC /* ViewController.m */,
+				3D60A7181B24A055007041BC /* Main.storyboard */,
+				3D60A71B1B24A055007041BC /* Images.xcassets */,
+				3D60A71D1B24A055007041BC /* LaunchScreen.xib */,
+				3D60A70E1B24A054007041BC /* Supporting Files */,
+			);
+			path = "微聊";
+			sourceTree = "<group>";
+		};
+		3D60A70E1B24A054007041BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A70F1B24A054007041BC /* Info.plist */,
+				3D60A7101B24A055007041BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D60A7271B24A055007041BC /* 微聊Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A72A1B24A055007041BC /* __Tests.m */,
+				3D60A7281B24A055007041BC /* Supporting Files */,
+			);
+			path = "微聊Tests";
+			sourceTree = "<group>";
+		};
+		3D60A7281B24A055007041BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A7291B24A055007041BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D60A70A1B24A054007041BC /* 微聊 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D60A72E1B24A055007041BC /* Build configuration list for PBXNativeTarget "微聊" */;
+			buildPhases = (
+				3D60A7071B24A054007041BC /* Sources */,
+				3D60A7081B24A054007041BC /* Frameworks */,
+				3D60A7091B24A054007041BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微聊";
+			productName = "微聊";
+			productReference = 3D60A70B1B24A054007041BC /* 微聊.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D60A7231B24A055007041BC /* 微聊Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D60A7311B24A055007041BC /* Build configuration list for PBXNativeTarget "微聊Tests" */;
+			buildPhases = (
+				3D60A7201B24A055007041BC /* Sources */,
+				3D60A7211B24A055007041BC /* Frameworks */,
+				3D60A7221B24A055007041BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D60A7261B24A055007041BC /* PBXTargetDependency */,
+			);
+			name = "微聊Tests";
+			productName = "微聊Tests";
+			productReference = 3D60A7241B24A055007041BC /* 微聊Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D60A7031B24A054007041BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "潘阳军";
+				TargetAttributes = {
+					3D60A70A1B24A054007041BC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3D60A7231B24A055007041BC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3D60A70A1B24A054007041BC;
+					};
+				};
+			};
+			buildConfigurationList = 3D60A7061B24A054007041BC /* Build configuration list for PBXProject "微聊" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D60A7021B24A054007041BC;
+			productRefGroup = 3D60A70C1B24A054007041BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D60A70A1B24A054007041BC /* 微聊 */,
+				3D60A7231B24A055007041BC /* 微聊Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D60A7091B24A054007041BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D60A71A1B24A055007041BC /* Main.storyboard in Resources */,
+				3D60A71F1B24A055007041BC /* LaunchScreen.xib in Resources */,
+				3D60A71C1B24A055007041BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D60A7221B24A055007041BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D60A7071B24A054007041BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D60A7171B24A055007041BC /* ViewController.m in Sources */,
+				3D60A7141B24A055007041BC /* AppDelegate.m in Sources */,
+				3D60A7111B24A055007041BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D60A7201B24A055007041BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D60A72B1B24A055007041BC /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D60A7261B24A055007041BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D60A70A1B24A054007041BC /* 微聊 */;
+			targetProxy = 3D60A7251B24A055007041BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D60A7181B24A055007041BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D60A7191B24A055007041BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D60A71D1B24A055007041BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D60A71E1B24A055007041BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D60A72C1B24A055007041BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D60A72D1B24A055007041BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D60A72F1B24A055007041BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微聊/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D60A7301B24A055007041BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微聊/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D60A7321B24A055007041BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "微聊Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微聊.app/微聊";
+			};
+			name = Debug;
+		};
+		3D60A7331B24A055007041BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "微聊Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微聊.app/微聊";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D60A7061B24A054007041BC /* Build configuration list for PBXProject "微聊" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D60A72C1B24A055007041BC /* Debug */,
+				3D60A72D1B24A055007041BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D60A72E1B24A055007041BC /* Build configuration list for PBXNativeTarget "微聊" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D60A72F1B24A055007041BC /* Debug */,
+				3D60A7301B24A055007041BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D60A7311B24A055007041BC /* Build configuration list for PBXNativeTarget "微聊Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D60A7321B24A055007041BC /* Debug */,
+				3D60A7331B24A055007041BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D60A7031B24A054007041BC /* Project object */;
+}

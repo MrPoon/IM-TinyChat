@@ -1,15 +1,13 @@
 //
 //  ViewController.h
-//  微聊
+//  ChatMessageTableViewController
 //
-//  Created by 潘阳君 on 15/6/7.
-//  Copyright (c) 2015年 潘阳军. All rights reserved.
+//  Created by Yongchao on 21/11/13.
+//  Copyright (c) 2013 Yongchao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JSMessagesViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : JSMessagesViewController
 
 @end
-

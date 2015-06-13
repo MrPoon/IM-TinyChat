@@ -69,7 +69,6 @@
 		3D38C6ED1B25E00300DC3A6C /* demo-avatar-jobs.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C6EB1B25E00300DC3A6C /* demo-avatar-jobs.png */; };
 		3D38C6EE1B25E00300DC3A6C /* demo-avatar-woz.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38C6EC1B25E00300DC3A6C /* demo-avatar-woz.png */; };
 		3D38C6F51B26003F00DC3A6C /* PJNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C6F41B26003F00DC3A6C /* PJNavgationController.m */; };
-		3D38C6F81B2601ED00DC3A6C /* PJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38C6F71B2601ED00DC3A6C /* PJHomeViewController.m */; };
 		3D60A7111B24A055007041BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A7101B24A055007041BC /* main.m */; };
 		3D60A7141B24A055007041BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A7131B24A055007041BC /* AppDelegate.m */; };
 		3D60A71C1B24A055007041BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A71B1B24A055007041BC /* Images.xcassets */; };
@@ -219,6 +218,9 @@
 		3D60A9361B24A2CC007041BC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D60A9351B24A2CC007041BC /* Security.framework */; };
 		3D60A9381B24A2E1007041BC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D60A9371B24A2E1007041BC /* libxml2.dylib */; };
 		3D60A93A1B24A2EE007041BC /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D60A9391B24A2EE007041BC /* libresolv.dylib */; };
+		3D6EA4771B26F12900A52E4D /* PJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EA4751B26F12900A52E4D /* PJLoginViewController.m */; };
+		3D6EA4781B26F12900A52E4D /* PJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6EA4761B26F12900A52E4D /* PJLoginViewController.xib */; };
+		3DB51BCA1B29E38C00E6802F /* PJXMPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB51BC91B29E38C00E6802F /* PJXMPPTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,8 +310,6 @@
 		3D38C6EC1B25E00300DC3A6C /* demo-avatar-woz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo-avatar-woz.png"; sourceTree = "<group>"; };
 		3D38C6F31B26003F00DC3A6C /* PJNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJNavgationController.h; sourceTree = "<group>"; };
 		3D38C6F41B26003F00DC3A6C /* PJNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJNavgationController.m; sourceTree = "<group>"; };
-		3D38C6F61B2601ED00DC3A6C /* PJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJHomeViewController.h; sourceTree = "<group>"; };
-		3D38C6F71B2601ED00DC3A6C /* PJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJHomeViewController.m; sourceTree = "<group>"; };
 		3D60A70B1B24A054007041BC /* 微聊.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微聊.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D60A70F1B24A054007041BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D60A7101B24A055007041BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -616,6 +616,11 @@
 		3D60A9351B24A2CC007041BC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		3D60A9371B24A2E1007041BC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		3D60A9391B24A2EE007041BC /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		3D6EA4741B26F12900A52E4D /* PJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJLoginViewController.h; sourceTree = "<group>"; };
+		3D6EA4751B26F12900A52E4D /* PJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJLoginViewController.m; sourceTree = "<group>"; };
+		3D6EA4761B26F12900A52E4D /* PJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PJLoginViewController.xib; sourceTree = "<group>"; };
+		3DB51BC81B29E38C00E6802F /* PJXMPPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXMPPTool.h; sourceTree = "<group>"; };
+		3DB51BC91B29E38C00E6802F /* PJXMPPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXMPPTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -747,8 +752,9 @@
 			children = (
 				3D38C6F31B26003F00DC3A6C /* PJNavgationController.h */,
 				3D38C6F41B26003F00DC3A6C /* PJNavgationController.m */,
-				3D38C6F61B2601ED00DC3A6C /* PJHomeViewController.h */,
-				3D38C6F71B2601ED00DC3A6C /* PJHomeViewController.m */,
+				3D6EA4741B26F12900A52E4D /* PJLoginViewController.h */,
+				3D6EA4751B26F12900A52E4D /* PJLoginViewController.m */,
+				3D6EA4761B26F12900A52E4D /* PJLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -775,6 +781,7 @@
 		3D60A70D1B24A054007041BC /* 微聊 */ = {
 			isa = PBXGroup;
 			children = (
+				3DB51BC71B29E33C00E6802F /* XMPPTool */,
 				3D38C6F21B25FFE400DC3A6C /* Controller */,
 				3D38C6641B25D3BF00DC3A6C /* MessagesTableViewController */,
 				3D60A7341B24A279007041BC /* XMPP */,
@@ -1692,6 +1699,15 @@
 			path = libidn;
 			sourceTree = "<group>";
 		};
+		3DB51BC71B29E33C00E6802F /* XMPPTool */ = {
+			isa = PBXGroup;
+			children = (
+				3DB51BC81B29E38C00E6802F /* PJXMPPTool.h */,
+				3DB51BC91B29E38C00E6802F /* PJXMPPTool.m */,
+			);
+			path = XMPPTool;
+			sourceTree = "<group>";
+		};
 		3DB655F51B24A52E006C861C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1827,6 +1843,7 @@
 				3D38C6E31B25D3BF00DC3A6C /* messageSent.aiff in Resources */,
 				3D38C6CC1B25D3BF00DC3A6C /* bubble-square-incoming-selected.png in Resources */,
 				3D38C6CA1B25D3BF00DC3A6C /* bubble-flat-outgoing.png in Resources */,
+				3D6EA4781B26F12900A52E4D /* PJLoginViewController.xib in Resources */,
 				3D38C6CD1B25D3BF00DC3A6C /* bubble-square-incoming-selected@2x.png in Resources */,
 				3D38C6BA1B25D3BF00DC3A6C /* bubble-default-incoming.png in Resources */,
 				3D38C6B71B25D3BF00DC3A6C /* bubble-default-incoming-green@2x.png in Resources */,
@@ -1889,7 +1906,6 @@
 				3D60A7141B24A055007041BC /* AppDelegate.m in Sources */,
 				3D60A8CF1B24A27A007041BC /* XMPPIQ+LastActivity.m in Sources */,
 				3D60A8F41B24A27A007041BC /* XMPPRegistration.m in Sources */,
-				3D38C6F81B2601ED00DC3A6C /* PJHomeViewController.m in Sources */,
 				3D60A8EE1B24A27A007041BC /* XMPPResultSet.m in Sources */,
 				3D60A8C71B24A27A007041BC /* XMPPResourceMemoryStorageObject.m in Sources */,
 				3D60A8AD1B24A27A007041BC /* XMPPXOAuth2Google.m in Sources */,
@@ -1952,6 +1968,7 @@
 				3D60A8FC1B24A27A007041BC /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
 				3D60A8B71B24A27A007041BC /* XMPPParser.m in Sources */,
 				3D60A8DC1B24A27A007041BC /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
+				3DB51BCA1B29E38C00E6802F /* PJXMPPTool.m in Sources */,
 				3D60A8D31B24A27A007041BC /* XMPPRoomCoreDataStorage.m in Sources */,
 				3D60A9211B24A27A007041BC /* XMPPStringPrep.m in Sources */,
 				3D60A9151B24A27A007041BC /* XMPPMessage+XEP_0224.m in Sources */,
@@ -1968,6 +1985,7 @@
 				3D60A8E41B24A27A007041BC /* XMPPvCardTempCoreDataStorageObject.m in Sources */,
 				3D60A8C41B24A27A007041BC /* XMPPRoster.xcdatamodel in Sources */,
 				3D60A8FF1B24A27A007041BC /* XMPPCapabilities.m in Sources */,
+				3D6EA4771B26F12900A52E4D /* PJLoginViewController.m in Sources */,
 				3D60A8CC1B24A27A007041BC /* XMPPIQ+JabberRPC.m in Sources */,
 				3D60A8FE1B24A27A007041BC /* XMPPCapsResourceCoreDataStorageObject.m in Sources */,
 				3D60A8DF1B24A27A007041BC /* XMPPRoom.m in Sources */,

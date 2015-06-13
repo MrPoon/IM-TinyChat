@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "PJNavgationController.h"
+#import "PJLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor clearColor];
-    PJNavgationController *nav = [[PJNavgationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    PJLoginViewController *loginView  = [[PJLoginViewController alloc] init];
+    PJNavgationController *nav = [[PJNavgationController alloc] initWithRootViewController:loginView];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
@@ -48,5 +50,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+-(XMPPStream *)xmppStream
+{
+    if (_xmppStream == nil)
+    {
+        _xmppStream = [[XMPPStream alloc] init];
+    }
+    return _xmppStream;
+}
 @end

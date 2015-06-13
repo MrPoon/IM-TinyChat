@@ -1,5 +1,5 @@
 //
-//  PJHomeViewController.h
+//  PJLoginViewController.h
 //  微聊
 //
 //  Created by 潘阳君 on 15/6/9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PJHomeViewController : UIViewController
+@interface PJLoginViewController : UIViewController
 
 @end

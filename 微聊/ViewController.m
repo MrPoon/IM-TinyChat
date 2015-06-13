@@ -10,9 +10,6 @@
 #import "PJNavgationController.h"
 #import "XMPPFramework.h"
 
-
-
-
 @interface ViewController () <JSMessagesViewDelegate, JSMessagesViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate,XMPPStreamDelegate>
 
 @property (strong, nonatomic) NSMutableArray *messageArray;
@@ -35,11 +32,15 @@
     self.title = @"@pan1";
     self.delegate = self;
     self.dataSource = self;
+    self.navigationController.navigationBarHidden = NO;
     self.messageArray = [NSMutableArray array];
     self.timestamps = [NSMutableArray array];
-    //连接openfire
-    [self connect];
-     
+    UIApplication *application = [UIApplication sharedApplication];
+    id delegate = [application delegate];
+    self.xmppStream = [delegate xmppStream];
+    [self.xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
+
+    
 }
 
 
@@ -212,56 +213,7 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
--(void)connect
-{
-    //创建xmpp服务对象
-    if (self.xmppStream == nil)
-    {
-        self.xmppStream = [[XMPPStream alloc] init];
-        [self.xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
-    }
-    if (![self.xmppStream isConnected])
-    {
-        NSString *usename = [NSString stringWithFormat:@"wangwu@panyangjun.local"];
-        XMPPJID *jid = [XMPPJID jidWithString:usename resource:@"iphone"];
-        NSLog(@"%@",jid);
-        [self.xmppStream setMyJID:jid];
-        [self.xmppStream setHostName:@"192.168.2.112"];//这里可以写panyangjun.local
-        [self.xmppStream setHostPort:5222];
-        NSError *error = nil;
-        if (![self.xmppStream connectWithTimeout:1.0 error:&error])
-        {
-            NSLog(@"%@",error);
-        }
-    }
-    
-}
--(void)xmppStream:(XMPPStream *)sender socketDidConnect:(GCDAsyncSocket *)socket
-{
-    NSLog(@"成功了");
-}
--(void)xmppStreamDidConnect:(XMPPStream *)sender
-{
-    NSError *error = nil;
-    [sender authenticateWithPassword:@"wangwu" error:&error];
-    
-}
--(void)xmppStreamDidAuthenticate:(XMPPStream *)sender
-{
-    NSLog(@"验证成功");
-    //上线
-    XMPPPresence *presence = [XMPPPresence presenceWithType:@"available"];
-    
-    [self.xmppStream sendElement:presence];
-    
-    
-}
-//获取好友状态
--(void)xmppStream:(XMPPStream *)sender didReceivePresence:(XMPPPresence *)presence
-{
-    //NSLog(@"%@",presence);
-    //  NSString *name = [presence from];
-}
+
 //获取消息
 -(void)xmppStream:(XMPPStream *)sender didReceiveMessage:(XMPPMessage *)message
 {
